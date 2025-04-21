@@ -1,0 +1,56 @@
+{
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Alexa Zuniga",
+      "votes": 1,
+      "image": "http://localhost:3001/images/Alexa_Zuniga.png",
+      "casillaNumber": 1
+    },
+    {
+      "id": 2,
+      "name": "Perla Hernandez",
+      "votes": 1,
+      "image": "http://localhost:3001/images/Perla_Hernandez.png",
+      "casillaNumber": 2
+    },
+    {
+      "id": 3,
+      "name": "alumno 3",
+      "votes": 0,
+      "image": "http://localhost:3001/images/Perla_Hernandez.png",
+      "casillaNumber": 3
+    },
+    {
+      "id": 4,
+      "name": "alumno 4",
+      "votes": 0,
+      "image": "http://localhost:3001/images/Perla_Hernandez.png",
+      "casillaNumber": 4
+    },
+    {
+      "id": 5,
+      "name": "alumno 5",
+      "votes": 1,
+      "image": "http://localhost:3001/images/Perla_Hernandez.png",
+      "casillaNumber": 5
+    },
+    {
+      "id": 6,
+      "name": "alumno 6",
+      "votes": 0,
+      "image": "http://localhost:3001/images/Perla_Hernandez.png",
+      "casillaNumber": 6
+    },
+    {
+      "id": 7,
+      "name": "alumno 7",
+      "votes": 2,
+      "image": "http://localhost:3001/images/Perla_Hernandez.png",
+      "casillaNumber": 7
+    }
+  ],
+  "studentsWhoVoted": [
+
+  ]
+}
