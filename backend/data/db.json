@@ -10,35 +10,35 @@
     {
       "id": 2,
       "name": "Perla Hernandez",
-      "votes": 1,
+      "votes": 6,
       "image": "http://localhost:3001/images/Perla_Hernandez.png",
       "casillaNumber": 2
     },
     {
       "id": 3,
       "name": "alumno 3",
-      "votes": 0,
+      "votes": 2,
       "image": "http://localhost:3001/images/Perla_Hernandez.png",
       "casillaNumber": 3
     },
     {
       "id": 4,
       "name": "alumno 4",
-      "votes": 0,
+      "votes": 1,
       "image": "http://localhost:3001/images/Perla_Hernandez.png",
       "casillaNumber": 4
     },
     {
       "id": 5,
       "name": "alumno 5",
-      "votes": 1,
+      "votes": 3,
       "image": "http://localhost:3001/images/Perla_Hernandez.png",
       "casillaNumber": 5
     },
     {
       "id": 6,
       "name": "alumno 6",
-      "votes": 0,
+      "votes": 1,
       "image": "http://localhost:3001/images/Perla_Hernandez.png",
       "casillaNumber": 6
     },
@@ -51,6 +51,11 @@
     }
   ],
   "studentsWhoVoted": [
-
+    "3542352352352",
+    "2342342342342",
+    "2435354646757",
+    "0703199104377",
+    "8977895123164",
+    "4634634634634"
   ]
 }

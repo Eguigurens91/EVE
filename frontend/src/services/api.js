@@ -1,9 +1,10 @@
 // frontend/src/services/api.js
-const API_URL = 'http://localhost:3001';
+const apiBackend = process.env.REACT_APP_BACKEND;
+// const apiBackend = 'http://localhost:3001';
 
 
 export async function getCandidates() {
-  const response = await fetch(`${API_URL}/candidates`);
+  const response = await fetch(`${apiBackend}/candidates`);
   if (!response.ok) {
     throw new Error('Error al obtener candidatos');
   }
@@ -11,7 +12,7 @@ export async function getCandidates() {
 }
 
 export async function voteCandidate(studentId, candidateId) {
-  const response = await fetch(`${API_URL}/vote`, {
+  const response = await fetch(`${apiBackend}/vote`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ studentId, candidateId })
@@ -25,7 +26,7 @@ export async function voteCandidate(studentId, candidateId) {
 }
 
 export async function checkStudent(studentId) {
-  const response = await fetch(`${API_URL}/check-student`, {
+  const response = await fetch(`${apiBackend}/check-student`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ studentId })
