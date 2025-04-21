@@ -2,7 +2,9 @@ import React from 'react';
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 
 function CandidateCard({ candidate, onVote }) {
-  console.log('Image URL:', candidate.image);
+  const imageBaseUrl = process.env.REACT_APP_IMAGE_BASE_URL;
+  console.log('Image URL:',imageBaseUrl + candidate.image);
+
   return (
     <Card
       onClick={() => onVote(candidate.id)}
@@ -20,7 +22,7 @@ function CandidateCard({ candidate, onVote }) {
     >
       <CardMedia
         component="img"
-        image={candidate.image}
+        image={imageBaseUrl+candidate.image}
         alt={candidate.name}
         sx={{
           width: '100%',
