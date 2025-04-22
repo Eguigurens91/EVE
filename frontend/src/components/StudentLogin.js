@@ -3,11 +3,29 @@ import { Box, TextField, Button, Typography } from '@mui/material';
 
 function StudentLogin({ onLogin }) {
   const [studentId, setStudentId] = useState('');
+  const [message, setMessage] = useState('');
   const imageBaseUrl = process.env.REACT_APP_IMAGE_BASE_URL;
+  const bck = process.env.REACT_APP_BACKEND;
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    onLogin(studentId);
+
+    // Verificar si el estudiante está habilitado para votar
+    const response = await fetch(`${bck}/check-student`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ studentId }),
+    });
+
+    const data = await response.json();
+    console.log("Response from server: ", data); // Log de la respuesta del servidor
+
+    if (data.isValid) {
+      setMessage(`Estás habilitado para votar, ${data.name}`);
+      onLogin(studentId); // Procede con la votación
+    } else {
+      setMessage('No estás habilitado para votar');
+    }
   };
 
   return (
@@ -20,7 +38,7 @@ function StudentLogin({ onLogin }) {
         justifyContent: 'center',
         width: '100%',
         maxWidth: 400,
-        mx: 'auto', 
+        mx: 'auto',
         p: 2
       }}
     >
@@ -80,6 +98,9 @@ function StudentLogin({ onLogin }) {
           Verificar
         </Button>
       </Box>
+
+      {/* Mensaje de resultado */}
+      {message && <Typography variant="body1" sx={{ mt: 2, textAlign: 'center' }}>{message}</Typography>}
     </Box>
   );
 }

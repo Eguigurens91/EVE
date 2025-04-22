@@ -2,55 +2,55 @@
   "candidates": [
     {
       "id": 1,
-      "name": "Alexa Zuniga",
+      "name": "JOSUA ANDRÉ PINEDA MESA",
       "votes": 1,
-      "image": "/Alexa_Zuniga.png",
+      "image": "/Joshua_Pineda.png",
       "casillaNumber": 1
     },
     {
       "id": 2,
-      "name": "Perla Hernandez",
-      "votes": 6,
-      "image": "/Perla_Hernandez.png",
+      "name": "ANDRECELESTE FLORES",
+      "votes": 8,
+      "image": "/Andrea_Celeste_Flores.png",
       "casillaNumber": 2
     },
     {
       "id": 3,
-      "name": "alumno 3",
+      "name": "ANDREA SOFIA GARCÍA LANZA",
       "votes": 2,
-      "image": "/Perla_Hernandez.png",
+      "image": "/Andrea_Sofia_Garcia.png",
       "casillaNumber": 3
     },
     {
       "id": 4,
-      "name": "alumno 4",
+      "name": "LUIS ARMANDO RODRIGUEZ",
       "votes": 1,
-      "image": "/Perla_Hernandez.png",
+      "image": "/Luis_Armando_Rodriguez.png",
       "casillaNumber": 4
     },
     {
       "id": 5,
-      "name": "alumno 5",
+      "name": "CESIA RAQUEL MERLO",
       "votes": 3,
-      "image": "/Perla_Hernandez.png",
+      "image": "/cesia_raquel_merlo.png",
       "casillaNumber": 5
     },
     {
       "id": 6,
-      "name": "alumno 6",
-      "votes": 1,
-      "image": "/Perla_Hernandez.png",
+      "name": "CARLOS OMAR MURILLO",
+      "votes": 2,
+      "image": "/Carlos_Omar_Murillo.png",
       "casillaNumber": 6
     },
     {
       "id": 7,
-      "name": "alumno 7",
+      "name": "WILSON EMIL CASTELLANOS",
       "votes": 2,
-      "image": "/Perla_Hernandez.png",
+      "image": "/wilson_emil_castellanos.png",
       "casillaNumber": 7
     }
   ],
   "studentsWhoVoted": [
-
+    "0703201401541"
   ]
 }

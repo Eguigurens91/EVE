@@ -13,6 +13,7 @@ function ResultsScreen({ candidates }) {
   // Ordenar por votos descendentes para detectar al ganador
   const sorted = [...candidates].sort((a, b) => b.votes - a.votes);
   const winner = sorted[0]; // El que más votos tiene
+  const imageBaseUrl = process.env.REACT_APP_IMAGE_BASE_URL;
   
 
   return (
@@ -35,7 +36,7 @@ function ResultsScreen({ candidates }) {
             >
               <CardMedia
                 component="img"
-                image={candidate.image}
+                image={imageBaseUrl+candidate.image}
                 alt={candidate.name}
                 sx={{ height: 150, objectFit: 'cover' }}
               />
