@@ -20,6 +20,7 @@ function CandidateCard({ candidate, onVote }) {
         borderRadius: 2
       }}
     >
+      
       <CardMedia
         component="img"
         image={imageBaseUrl+candidate.image}
@@ -31,6 +32,7 @@ function CandidateCard({ candidate, onVote }) {
           borderBottom: '2px solid #000',
         }}
       />
+      
       <CardContent sx={{ textAlign: 'center', padding: '10px' }}>
         <Typography variant="body1" sx={{ fontWeight: 'bold', color: 'black' }}>
           {candidate.name}

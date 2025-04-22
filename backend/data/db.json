@@ -3,54 +3,53 @@
     {
       "id": 1,
       "name": "JOSUA ANDRÉ PINEDA MESA",
-      "votes": 1,
+      "votes": 0,
       "image": "/Joshua_Pineda.png",
       "casillaNumber": 1
     },
     {
       "id": 2,
       "name": "ANDRECELESTE FLORES",
-      "votes": 8,
+      "votes": 0,
       "image": "/Andrea_Celeste_Flores.png",
       "casillaNumber": 2
     },
     {
       "id": 3,
       "name": "ANDREA SOFIA GARCÍA LANZA",
-      "votes": 2,
+      "votes": 0,
       "image": "/Andrea_Sofia_Garcia.png",
       "casillaNumber": 3
     },
     {
       "id": 4,
       "name": "LUIS ARMANDO RODRIGUEZ",
-      "votes": 1,
+      "votes": 0,
       "image": "/Luis_Armando_Rodriguez.png",
       "casillaNumber": 4
     },
     {
       "id": 5,
       "name": "CESIA RAQUEL MERLO",
-      "votes": 3,
+      "votes": 0,
       "image": "/cesia_raquel_merlo.png",
       "casillaNumber": 5
     },
     {
       "id": 6,
       "name": "CARLOS OMAR MURILLO",
-      "votes": 2,
+      "votes": 0,
       "image": "/Carlos_Omar_Murillo.png",
       "casillaNumber": 6
     },
     {
       "id": 7,
       "name": "WILSON EMIL CASTELLANOS",
-      "votes": 2,
+      "votes": 0,
       "image": "/wilson_emil_castellanos.png",
       "casillaNumber": 7
     }
   ],
   "studentsWhoVoted": [
-    "0703201401541"
   ]
 }
