@@ -74,26 +74,16 @@ function StudentLogin({ onLogin }) {
           label="ID de Estudiante"
           variant="outlined"
           value={studentId}
-          onChange={(e) => setStudentId(e.target.value.replace(/[^0-9]/g, ''))}
+          onChange={(e) => setStudentId(e.target.value)} // Eliminar validación para 13 dígitos
           required
           fullWidth
-          inputProps={{
-            maxLength: 13,
-            inputMode: 'numeric'
-          }}
-          helperText={
-            studentId.length > 0 && studentId.length !== 13 
-              ? 'Debe contener 13 dígitos numéricos' 
-              : 'Ingresar número de identidad de 13 dígitos'
-          }
-          error={studentId.length > 0 && studentId.length !== 13}
+          helperText="Ingresar número de identidad"
         />
         <Button 
           type="submit" 
           variant="contained" 
           size="large" 
           fullWidth
-          disabled={studentId.length !== 13}
         >
           Verificar
         </Button>
